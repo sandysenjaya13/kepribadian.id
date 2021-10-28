@@ -1,0 +1,321 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Layout</title>
+<link rel="stylesheet" type="text/css" href="../Style/style.css">
+<link rel="stylesheet" type="text/css" href="../Style/style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="../Style/jquery-3.5.1.js" charset="utf-8">
+	function js(){
+
+		var a = document.getElementById("tanya1").value;
+		var b = document.getElementById("tanya2").value;
+		var c = document.getElementById("tanya3").value;
+		var d = document.getElementById("tanya4").value;
+		var e = document.getElementById("tanya5").value;
+		var f = document.getElementById("tanya6").value;
+		var g = document.getElementById("tanya7").value;
+		var h = document.getElementById("tanya8").value;
+		var i = document.getElementById("tanya9").value;
+		var j = document.getElementById("tanya10").value;
+		var k = document.getElementById("tanya11").value;
+		var l = document.getElementById("tanya12").value;
+		var tot = Number(a) + Number(b) + Number(c) + Number(d) + Number(e) + Number(f) + Number(g) + Number(h) + Number(i) + Number(j) + Number(k) + Number(l) ;
+
+		document.getElementById("angka").innerHTML ="Hasil Angka kamu adalah:" +" "+ tot;
+
+		if(tot >= 16 && tot <25){
+			document.getElementById("hasil").innerHTML = "Kamu seorang Introvert";
+
+		}
+		else if(tot >= 25 && tot <40){
+
+			document.getElementById("hasil").innerHTML = "Kamu seorang Ekstrovert";
+		}
+		else if(tot >= 40){
+
+			document.getElementById("hasil").innerHTML = "Kamu seorang Ambivert";
+
+		}
+		else {
+			document.getElementById("hasil").innerHTML = "Coba lagi, Kamu mungkin belum menjawab dengan benar";
+		}
+
+		}
+
+
+	</script>
+</head>
+<body>
+
+<div class="header">
+
+	<h1 class="web">KEPRIBADIAN.ID</h1>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</div>
+<div class="drop">
+	<ul>
+		<li><a href="../index.html"> <i style="line-height:1px" class="fa fa-home fa-2x"></i> </a></li>
+		<li><a href="tentang-kami.html">Tentang Kami</a></li>
+		<li class="dropdown" ><a style="border:none" href="#">Lain-lain</a>
+			<ul class="isi-dropdown">
+				<li><a href="masuk1.html">Kerusakan Halaman</a></li>
+				<li><a href="masuk1.html">Error pada halaman</a></li>
+				<li><a href="whatsapp://send?text=Hello&phone=+6285156141278">Permintaan beriklan</a></li>
+			</ul>
+		</li>
+		<li><a href="mailto:rokkie2412@gmail.com">Masukan</a></li>
+		<form action="/action_page.php" style="float: right;padding: 6px 10px;
+
+padding: 11px 14px;
+background: #333;
+font-size: 17px;
+border: none;
+cursor: pointer;">
+		<input type="text" placeholder="Search.." name="search" style="border-radius: 5px;padding:1px;">
+		<button style="background-color:#333;border:none" type="submit"><i style="color:white" class="fa fa-search"></i></button>
+	</form>
+		<li><a href="masuk.html">Subscribe</a></li>
+	</ul>
+</div>
+<div class="row">
+	<div class="leftcolumn">
+		<div class="card">
+			<h1 style="font-weight: bolder;">Introvert, Ekstrovert, Ambivert: Apa Definisi dan Perbedaannya?</h1>
+			<h2>1. Introvert</h2>
+			<img width="950" height="500" src="../Picture/introvert.jpg">
+			<p>Konsep introvert dan ekstrovert pertama kali dicetuskan oleh psikiater asal Swiss bernama Carl Jung. Ia percaya bahwa beberapa orang bisa mendapatkan energi dari dunia eksternal (ekstrovert) dan lainnya mendapatkan energi dari dunia internal (introvert).</p>
+			<p>Definisi introvert sendiri adalah seseorang yang bisa menyerap energi ketika sedang sendiri memilih ketenangan untuk refleksi. Mereka tidak menolak menghabiskan waktu bersama satu atau dua orang terdekatnya.</p>
+			<p>Mereka kadang membutuhkan waktu menyendiri untuk memulihkan energinya setelah berinteraksi di lingkungan sosialnya. Mereka juga cenderung tidak suka omongan basa-basi, dan lebih memilih percakapan yang lebih berarti.</p>
+			<ul>Berikut ciri-ciri kepribadian introvert lainnya yang perlu kalian ketahui:
+			<li>Memilih kerja sendiri. Jika kalian merasa kerja kelompok terlalu berlebihan, tandanya kalian adalah seorang introvert. Orang introvert biasanya bekerja lebih efektif ketika mereka bekerja sendiri karena bisa lebih fokus.</li>
+			<li>Introspektif dan ingin tahu. Sebelum merencanakan sesuatu, biasanya seorang introvert memilih untuk memikirkannya secara matang terlebih dahulu.</li>
+			</ul>
+			<p>Cara berpikir orang introvert memang lebih internal. Pola berpikir ini yang mendorong mereka untuk banyak melakukan riset dan refleksi diri sendiri.</p>
+			<br>
+			<h2>2. Ekstrovert</h2>
+			<img src="../Picture/ekstrovert.png" width="950" width="500">
+			<p>Ekstrovert sering didefinisikan sebagai "life of the party". Mereka sangat tertarik dengan interaksi sosial, bahkan bisa mengambil energi dari situasi tersebut.</p>
+			<p>
+			Ahli saraf mengatakan ekstrovert lebih responsif terhadap stimulasi dari luar karena otak mereka mengeluarkan lebih banyak dopamine di tengah situasi sosial. Dopamine sendiri adalah senyawa kimia di otak yang menyebabkan rasa senang dan puas.</p>
+			<ul>Berikut ciri-ciri kepribadian ekstrovert lainnya:
+			<li>Tidak suka menyendiri. Ekstrovert tidak suka menyendiri karena mereka merasa keadaan tersebut justru menguras energi mereka. Mereka mengisi ulang energi justru dengan berada di tengah orang banyak.</li>
+			<li>Senang berada di tengah orang banyak. Beda dengan introvert, ekstrovert justru merasa nyaman berkumpul dalam kelompok besar. Mereka bahkan tidak segan menjadi pemimpin di kerja kelompok dan kegiatan sosial setelah kerja.</li>
+			<li>Memiliki banyak teman. Orang ekstrovert lebih mudah mendapatkan teman baru karena mereka merasa nyaman dengan energi orang lain. Mereka juga memiliki jaringan sosial yang luas dengan banyak kenalan.</li>
+			<li> Outgoing dan optimis. Ekstrovert kadang disebut sebagai orang yang bahagia, positif, ceria, dan ramah. Mereka jarang terlalu memikirkan kesulitan dalam hidup.</li>
+			<li>Tidak khawatir dengan risiko. Orang ekstrovert kadang suka melakukan tindakan yang berisiko. Jika tindakan tersebut berhasil dan risikonya terbayarkan, mereka akan merasa sangat puas.
+			</li>
+
+			</ul>
+			<br>
+			<h2>3. Ambivert</h2>
+			<img src="../Picture/ambivert.jpg" width="950" height="500">
+			<p>Sesungguhnya introvert dan ekstrovert adalah sebuah spektrum. Artinya, tidak semua orang 100% memiliki kepribadian introvert atau ekstrovert, tapi justru berada di tengah-tengah.</p>
+			<p>Kalian bisa saja berada lebih dekat dengan sisi introvert atau ekstrovert. Jika kalian merasa tidak cocok dengan deskripsi kedua kepribadian tersebut, kemungkinan besar kalian adalah seorang ambivert.
+			</p>
+			<p>Kepribadian ambivert bisa condong ke sisi introvert atau ekstrovert tergantung pada situasi yang mereka hadapi. Berikut ciri-ciri kepribadian ambivert yang perlu kalian ketahui:</p>
+			<ul>
+				<li>Pendengar yang baik. Ekstrovert mungkin lebih banyak bicara dan introvert lebih banyak melihat dan mendengar. Tapi ambivert tahu kapan harus bicara dan kapan harus menjadi pendengar</li>
+				<li>Bisa mengatur perilaku. Kepribadian ambivert bisa menyesuaikan perilakunya tergantung dari orang dan lingkungan di sekelilingnya.</li>
+				<li>Merasa nyaman di situasi sosial, tapi juga menghargai waktu menyendiri. Jika mendapat undangan pesta dari temannya, seorang ambivert mungkin akan memikirkan pro dan kontra dari acara tersebut. Mereka bisa saja memilih untuk pergi atau tidak.</li>
+				<li>Memiliki empati yang tinggi. Kepribadian ambivert bisa menjadi pendengar yang baik dan mengerti situasi seseorang. Jika seorang temannya mengalami masalah, ambivert akan mendengar dan memberi pertanyaan mendalam untuk membantu menyelesaikan masalah.</li>
+				<li>Bisa menyediakan keseimbangan. Di situasi sosial, seorang ambivert bisa memberikan keseimbangan yang diperlukan. Mereka bisa saja menjadi orang pertama yang memecahkan kesunyian dan membuat orang lain yang lebih introvert menjadi lebih nyaman untuk berbicara.</li>
+			</ul>
+			<br>
+			<br>
+			<p>Nah itu dia teman-teman definisi introvert, ekstrovert, dan ambivert. Kalau kalian yang mana ya?</p>
+		</div>
+		<div class="card">
+			<h2>Kalian masih binggung kalian yang mana? Jika kalian bisa binggung kalian bisa pencet tombol di bawah ini untuk melakukan
+			test secara langsung!</h2>
+			<p align="center"><button class="btn" onclick="show()">Test Kepribadian</button></p>
+			<br>
+			<div id="show">
+				<h5 style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'">Test Keperibadian introvert, ekstrovert, dan ambivert</h5>
+
+	<h5>Aturan testnya : pilih 1 untuk ya pilih 2 untuk mungkin pilih 3 untuk tidak</h5>
+
+	  <h5>1.Apa kamu senang terlibat dalam proyek yang menuntut kecepatan?
+	  	<br>
+	  <input type="number" id="tanya1"></h5>
+		<h5>2.Ketika menaiki tangga apakah biasanya menaiki dua anak tangga sekaligus?
+			<br>
+	  <input type="number" id="tanya2"></h5>
+		<h5>3.Apakah lalu lintas macet <b>sering</b> membuat anda marah?
+			<br>
+		<input type="number" id="tanya3">?</h5>
+		<h5>4.Ketika makan bersama apakah kamu selesai lebih cepat?
+			<br>
+		<input type="number" id="tanya4">?</h5>
+		<h5>5.Apa kamu senang menagatur kegiatan waktu luang?
+			<br>
+	  <input type="number"  id="tanya5">?</h5>
+		<h5>6.Apa kamu biasa bangun pagi dengan penuh semangat dan sipa menjalani aktivitas?
+			<br>
+		<input type="number"  id="tanya6"></h5>
+		<h5>7.Apa kamu sering bergegas dari suatu kegiatan ke kegiatan lain tanpa berhenti untuk rileks?
+			<br>
+		<input type="number"  id="tanya7">?</h5>
+		<h5>8.Ketika sedang berjalan dengan orang lain, apakah mereka sulit mengimbangi kecepatan mu?
+			<br>
+		<input type="number"  id="tanya8">?</h5>
+		<h5>9.Apa kamu tidak sabaran untuk menunggu?
+			<br>
+		<input type="number"  id="tanya9">?</h5>
+		<h5>10.Apa kamu merasa orang lain lebih supel dari kamu?
+			<br>
+		<input type="number"  id="tanya10">?</h5>
+		<h5>11.Bila melihat orang yang supel apa membuat anda khawatir?
+			<br>
+		<input type="number"  id="tanya11">?</h5>
+		<h5>12.Apa kamu tidak bisa diganggu ketika melakukan sesuatu?
+			<br>
+		<input type="number"  id="tanya12">?</h5>
+		<h5>13.Apa malas berkenalan dengan orang baru?
+			<br>
+		<input type="number"  id="tanya13">?</h5>
+		<h5>14.Apa kamu suka berdiam diruangan dan menikmati waktu pribadi mu?
+			<br>
+		<input type="number"  id="tanya14">?</h5>
+		<h5>15.Apa kamu suka merasa cemas tanpa alasan?
+			<br>
+		<input type="number"  id="tanya15">?</h5>
+		<h5>16.Apakah kamu cenderung diam bila sedang diskusi?
+			<br>
+		<input type="number"  id="tanya16">?</h5>
+
+		<br>
+		<button class="btn" id="proses" onClick="js()">Hasil Test</button><br>
+		<h3 id="angka"></h3>
+		<h3 id="hasil"></h3>
+
+		<P align="center">
+		<button class="btn" id="hide" onClick="hide()">Sembunyikan Test</button><br></P>
+		<script type="text/javascript">
+			function hide(){
+				document.getElementById("show").style.display = "none"
+			}
+
+
+		</script>
+
+
+
+			</div>
+		</div>
+		<br>
+		<br>
+
+
+<script type="text/javascript">
+	function show(){
+		document.getElementById("show").style.display = "inline"
+	}
+
+
+</script>
+
+
+
+
+
+	</div> <!-- left -->
+	<div class="headkanan">
+
+	</div>
+	<div class="rightcolumn">
+		<div class="card">
+			<a href="myLayout2.html">
+			<h2>Baca Juga :</h2>
+			<h3>Tipe-tipe Temprament</h3>
+			<img src="../Picture/temp.png" width="280" height="200">
+			<p>Temprament adalah sesuatu yang melekat pada diri kita, tapi apakah kita sadar bahwa setiap temprament kita itu memiliki kelasnya masing-masing? Untuk mengetahui lebih lanjut baca yuk disini!</p>
+			</a>
+		</div>
+		<div class="card">
+			<a href="myLayout4.html">
+			<h2>Baca Juga :</h2>
+			<h3>Apa Itu Phobia</h3>
+			<img src="../Picture/phobia.jpg" width="280" height="200">
+			<p>Phobia adalah sebuah penyakit mental yang dialami orang dan sering sekali dianggap sesuatu yang normal.Disini kia akan membahas akan seluk beluk Phobia.</p>
+			</a>
+		</div>
+		<div class="card">
+			<a href="mylayout3.html">
+			<h2>Baca Juga :</h2>
+			<h3>Cara Sleep Hygine</h3>
+			<img src="../Picture/sleep.jpg" width="280" height="200">
+			<p>Bagaimana cara melakukan Sleep hygine. Sleep hygine adalah terapi yang di khsuskan pada mereka yang sulit untuk tidur pada malam hari karena berbagai faktor.</p>
+			</a>
+		</div>
+		<div class="card">
+			<a href="myLayout5.html">
+			<h2>Baca Juga :</h2>
+			<h3>Apa Itu Stress</h3>
+			<img src="../Picture/stress1.jpg" width="280" height="200">
+			<p>Stres adalah gangguan mental yang dihadapi seseorang akibat adanya tekanan. Tekanan ini muncul dari kegagalan individu dalam memenuhi kebutuhan atau keinginannya. Tekanan ini juga bisa berasal dari dalam diri, atau dari luar.</p>
+			</a>
+		</div>
+
+		<div class="card">
+			<h3>Popular Post</h3>
+			<a href="https://www.kompas.com/covid-19">
+			<img src="../Picture/cv.jpg" width="280px; height: 100">
+			</a>
+		</div>
+		<div class="card">
+			<h3>Follow Me</h3>
+			<a href="www.facebook.com"><i class="fa fa-facebook fa-3x" style="padding-right: 50px;padding-left: 30px;"></i></a>
+			<a href="www.instagram.com"><i class="fa fa-instagram fa-3x"></i></a>
+			<a href="mailto:rokkie2412@gmail.com"><i class="fa fa-envelope fa-3x" style="padding-left: 50px;"></i></a>
+		</div>
+	</div>
+</div>
+<div class="kaki">
+		<div class="kakikaki">
+		<h4>Alamat Kami :</h4>
+			<p>Jln.Pasir Kaliki No.25-27<br>
+			Bandung</p>
+			<p>Lihat :
+			<a href="https://www.google.com/maps/place/BINUS+@BANDUNG+School+of+Creative+Technology/@-6.9149128,107.5911374,17z/data=!3m1!4b1!4m5!3m4!1s0x2e68e61642f30481:0x6b8ccc138882098e!8m2!3d-6.9149128!4d107.5933261">Google Maps</a></p>
+			<p>Website :<a href="mailto:rokkie2412@gmail.com">Hubungi Kami</a></p>
+		</div>
+		<div class="kakikaki">
+			<h4>Gabung	</h4>
+			<a href="masuk.html">Berlangganan</a>
+			<hr>
+			<a href="#" target="_blank">Donasi</a>
+			<hr>
+		</div>
+		<div style="text-align: center; padding-bottom: 15px;">
+		<h6 style="font-family: verdana;">Powered By:</h6>
+		<i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+	</div>
+	</div>
+</body>
+ <script type="text/javascript">
+    var textWrapper = document.querySelector('.web');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+.add({
+  targets: '.web .letter',
+  scale: [4,1],
+  opacity: [0,1],
+  translateZ: 0,
+  easing: "easeOutExpo",
+  duration: 950,
+  delay: (el, i) => 70*i
+}).add({
+  targets: '.web',
+  opacity: 0,
+  duration: 1000,
+  easing: "easeOutExpo",
+  delay: 1000
+});
+    </script>
+</html>

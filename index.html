@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="Style/style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+ h2{
+  font-weight: bold;
+ }
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  color: black;
+}
+
+.next {
+  right: 0;
+  color: black;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+  <div class="header">
+  <h1 class="web">KEPRIBADIAN.ID</h1>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</div>
+<div class="drop">
+  <ul>
+    <li><a href="index.html"> <i style="line-height:1px" class="fa fa-home fa-2x"></i> </a></li>
+    <li><a href="page/tentang-kami.html">Tentang Kami</a></li>
+    <li class="dropdown" ><a style="border:none" href="#">Lain-lain</a>
+      <ul class="isi-dropdown">
+        <li><a href="page/masuk1.html">Kerusakan Halaman</a></li>
+        <li><a href="page/masuk1.html">Error pada halaman</a></li>
+        <li><a href="whatsapp://send?text=Hello&phone=+6285156141278">Permintaan beriklan</a></li>
+      </ul>
+    </li>
+    <li><a href="mailto:rokkie2412@gmail.com">Masukan</a></li>
+    <form action="/action_page.php" style="float: right;padding: 6px 10px;
+
+padding: 11px 14px;
+background: #333;
+font-size: 17px;
+border: none;
+cursor: pointer;">
+    <input type="text" placeholder="Search.." name="search" style="border-radius: 5px;padding:1px;">
+    <button style="background-color:#333;border:none" type="submit"><i style="color:white" class="fa fa-search"></i></button>
+  </form>
+    <li><a href="page/masuk.html">Subscribe</a></li>
+  </ul>
+</div>
+<div class="header">
+  <h1 style="font-weight: bolder;">Selamat Datang Di Web KEPRIBADIAN.ID</h1>
+</div>
+
+
+<div style="padding-right: 120px">
+<div class="rightcolumn" style="width: 50%">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <div class="card">
+      <a href="page/myLayout.html">
+      <h2 align="center">Tipe-tipe Kepribadian</h2>
+      <p align="center"><img src="Picture/side.jpeg" width="300" height="200"></p>
+      <p>Kepribadian seseorang pastinya berbeda-beda namun apakah kamu sudah tahu setiap kelasnya?atau kamu baru tau jika kepribadian mempunyai kelas?</p>
+      </a>
+    </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <div class="card">
+      <a href="page/mylayout3.html">
+      <h2 align="center">Cara Untuk Sleep Hygine</h2>
+
+     <p align="center"> <img src="Picture/sleep.jpg" width="300" height="200"></p>
+      <p>Bagaimana cara melakukan Sleep hygine. Sleep hygine adalah terapi yang di khsuskan pada mereka yang sulit untuk tidur pada malam hari karena berbagai faktor.</p>
+      </a>
+    </div>
+</div>
+
+<div class="mySlides fade">
+   <div class="numbertext">3 / 6</div>
+  <div class="card">
+      <a href="page/myLayout2.html">
+      <h2 align="center">Tipe-tipe Temprament</h2>
+     <p align="center"> <img src="Picture/temp.png" width="300" height="200"></p>
+      <p>Temprament adalah sesuatu yang melekat pada diri kita, tapi apakah kita sadar bahwa setiap temprament kita itu memiliki kelasnya masing-masing? Untuk mengetahui lebih lanjut baca yuk disini!</p>
+      </a>
+  </div>
+</div>
+
+<div class="mySlides fade">
+   <div class="numbertext">4 / 6</div>
+  <div class="card">
+      <a href="page/myLayout4.html">
+      <h2 align="center">Apa Itu Phobia</h2>
+          <p align="center"> <img src="Picture/phobia.jpg" width="300" height="200"></p>
+      <p>Phobia adalah sebuah penyakit mental yang dialami orang dan sering sekali dianggap sesuatu yang normal.Disini kia akan membahas akan seluk beluk Phobia.</p>
+      </a>
+    </div>
+</div>
+
+<div class="mySlides fade">
+   <div class="numbertext">5 / 6</div>
+  <div class="card">
+      <a href="page/myLayout5.html">
+      <h2 align="center">Apa Itu Stress</h2>
+     <p align="center"> <img src="Picture/stress1.jpg" width="300" height="200"></p>
+      <p>Stres adalah gangguan mental yang dihadapi seseorang akibat adanya tekanan. Tekanan ini muncul dari kegagalan individu dalam memenuhi kebutuhan atau keinginannya. Tekanan ini juga bisa berasal dari dalam diri, atau dari luar.</p>
+      </a>
+    </div>
+</div>
+
+<div class="mySlides fade">
+   <div class="numbertext">6 / 6</div>
+  <div class="card">
+      <a href="page/myLayout6.html">
+      <h2 align="center">10 Perbedaan Introvert, Ekstrovert, dan Ambivert yang Perlu Kamu Tahu, Biar Nggak Asal Sebut</h2>
+     <p align="center"> <img src="Picture/10-1.jpg" width="300" height="200"></p>
+      <p>Tahukan kamu bahwa setiap kerpibadian itu memiliki masing-masing perbedaan, nah disini kita akan membahas apa saja masinng-masing perbedaannya.</p>
+      </a>
+    </div>
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+   <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+</div>
+  </div>
+  <div style="padding-left: 30px;">
+  <div class="card" style="background-color: #333;color: white; height: 400px; align-items: center; text-align: center;cursor: default; width: 500px;border-radius: 10px">
+
+
+      <h1 style=" padding-top: 100px;font-weight: bold;">Content yang kami telah sediakan</h1>
+
+    </div>
+  </div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br>
+<br>
+<br>
+<div style="padding-left: 30px">
+  <div style="float: left; width: 500px;height:350px;background-color: #333;max-width: 100%;border-radius: 10px ">
+  <h1 align="center" style="padding-top: 120px;font-weight: bold;color: white;">Update terkini Corona Virus(COVID-19)</h1>
+  </div>
+  <div style="padding-right: 120px;background-color:white;">
+  <div style="float: right;">
+  <a href="https://covid19.go.id/"><img src="Picture/cor.jpg" width="870" height="360"></a>
+  </div>
+  </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</div>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br />
+
+<div class="kaki">
+    <div class="kakikaki">
+    <h4>Alamat Kami :</h4>
+      <p>Jln.Pasir Kaliki No.25-27<br>
+      Bandung</p>
+      <p>Lihat :
+      <a href="https://www.google.com/maps/place/BINUS+@BANDUNG+School+of+Creative+Technology/@-6.9149128,107.5911374,17z/data=!3m1!4b1!4m5!3m4!1s0x2e68e61642f30481:0x6b8ccc138882098e!8m2!3d-6.9149128!4d107.5933261">Google Maps</a></p>
+      <p>Website :<a href="mailto:rokkie2412@gmail.com">Hubungi Kami</a></p>
+    </div>
+    <div class="kakikaki">
+      <h4>Gabung</h4>
+      <a href="page/masuk.html">Berlangganan</a>
+      <hr>
+      <a href="#" target="_blank">Donasi</a>
+      <hr>
+
+    </div>
+    <p>
+      <div style="text-align: center; padding-bottom: 15px;">
+    <h6 style="font-family: verdana;">Powered By:</h6>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </div>
+</div>
+</body>
+
+<script type="text/javascript">
+    var textWrapper = document.querySelector('.web');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+.add({
+  targets: '.web .letter',
+  scale: [4,1],
+  opacity: [0,1],
+  translateZ: 0,
+  easing: "easeOutExpo",
+  duration: 950,
+  delay: (el, i) => 70*i
+}).add({
+  targets: '.web',
+  opacity: 0,
+  duration: 1000,
+  easing: "easeOutExpo",
+  delay: 1000
+});
+</script>
+</html>
